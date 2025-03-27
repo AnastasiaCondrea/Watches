@@ -6,7 +6,7 @@
 }
 
 .container {
-    width: 80px;
+    width: 800px;
     margin: 0 auto;
 }
 
@@ -16,9 +16,45 @@
     padding: 10px;
     border: 10px solid red;
     margin: 30px;
+   
 }
 
 .title {
+
     margin: 0 0 50px 0;
     margin-bottom: 50px;
+    background-color: rgb(33, 134, 223);
 }
+ .big-text {
+    margin-top: 150px;
+ }
+
+ .link {
+    display: inline-block;
+    padding: 20px;
+ }
+
+ .btn {padding: 0;}
+
+ .container{ width: 600px;
+margin: 0 auto;}
+
+
+
+ .some-item {
+    background-color: bisque;
+    font-size: 20px;
+    line-height: 1,2;
+    text-decoration: none;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+        margin-bottom: 50px;
+        
+ }
+
+ 
+ .some-item:last-child {
+    background-color: aquamarine;
+    
+ }
