@@ -58,3 +58,31 @@ margin: 0 auto;}
     background-color: aquamarine;
     
  }
+
+
+ .wrap {height: 500px;
+width: 500px;
+margin: 0 auto;
+outline: 1px solid #99999999;
+display: flex;
+flex-wrap:wrap ;}
+
+.block {width: 100px;
+height: 100px;
+color: rgb(4, 43, 43);
+font-family: sans-serif;
+font-size: 50px;
+border: 1px solid #99999999;
+}
+
+.first {background-color: blue;
+flex-grow: 1;}
+
+.second {background-color: blueviolet;
+height: 200;}
+
+.third {background-color: aquamarine;
+height: 100;}
+
+.fourth {background-color: bisque;
+height: ;}
